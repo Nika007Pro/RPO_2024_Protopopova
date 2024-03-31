@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.icu.text.DecimalFormat;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -20,7 +22,8 @@ import java.nio.charset.StandardCharsets;
 
 import ru.iu3.fclient.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements TransactionEvents{
+
 
     // Used to load the 'fclient' library on application startup.
     static {
@@ -29,8 +32,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private ActivityMainBinding binding;
+    private String pin;
+    public native String stringFromJNI();
+    public static native int initRng();
+    public static native byte[] randomBytes(int no);
+    public static native byte[] encrypt(byte[] key,byte[] data);
+    public static native byte[] decrypt(byte[] key, byte[] data);
+    public native boolean transaction(byte[] trd);
+
 
     ActivityResultLauncher activityResultLauncher;
+
 
 
     @Override
@@ -39,34 +51,27 @@ public class MainActivity extends AppCompatActivity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        int res = initRng();
+        byte[] v = randomBytes(10);
 
-
-
-        int num = initRng();
-        byte[] key = randomBytes(10);
-
-        String s = "Click me";
-        byte[] testData = s.getBytes(StandardCharsets.UTF_8);
-
-        byte[] encrypted = encrypt(key, testData);
-        byte[] decrypted = encrypt(key, encrypted);
-
-        String res = new String(decrypted, StandardCharsets.UTF_8);
+        // Example of a call to a native method
         TextView tv = binding.sampleButton;
-        tv.setText(s);
+        tv.setText(stringFromJNI());
+
         activityResultLauncher  = registerForActivityResult(
                 new ActivityResultContracts.StartActivityForResult(),
-                (ActivityResultCallback<ActivityResult>) result-> {
-                    if (result.getResultCode() == Activity.RESULT_OK) {
-                        Intent data = result.getData();
-                        // обработка результата
-                        assert data!=null;
-                        String pin = data.getStringExtra("pin");
-
-                        Toast.makeText(MainActivity.this, pin, Toast.LENGTH_SHORT).show();
-
-                        synchronized (MainActivity.this){
-                            MainActivity.this.notifyAll();
+                new ActivityResultCallback<ActivityResult>(){
+                    @Override
+                    public void onActivityResult(ActivityResult result) {
+                        if (result.getResultCode() == Activity.RESULT_OK) {
+                            Intent data = result.getData();
+                            // обработка результата
+                            //String pin = data.getStringExtra("pin");
+                            //Toast.makeText(MainActivity.this, pin, Toast.LENGTH_SHORT).show();
+                            pin = data.getStringExtra("pin");
+                            synchronized (MainActivity.this) {
+                                MainActivity.this.notifyAll();
+                            }
                         }
                     }
                 });
@@ -80,14 +85,58 @@ public class MainActivity extends AppCompatActivity {
 //        String s = new String(Hex.encodeHex(dec)).toUpperCase();
 //        Toast.makeText(this, "Hello", Toast.LENGTH_SHORT).show();
 
-        Intent it = new Intent(this, PinpadActivity.class);
-        startActivity(it);
+//        Intent it = new Intent(this, PinpadActivity.class);
+//        startActivity(it);
+
+        // print PinCode after like push notification
 
 //        Intent it = new Intent(this, PinpadActivity.class);
 //        startActivity(it);
 //        activityResultLauncher.launch(it);
+
+//
+//        new Thread(()-> {
+//            try {
+//                byte[] trd = stringToHex("9F0206000000000100");
+//                boolean ok = transaction(trd);
+//                runOnUiThread(()-> {
+//                    Toast.makeText(MainActivity.this, ok ? "ok" : "failed", Toast.LENGTH_SHORT).show();
+//                });
+//
+//            } catch (Exception ex) {
+//                // todo: log error
+//            }
+//        }).start();
+
+        byte[] trd = stringToHex("9F0206000000000100");
+        boolean ok = transaction(trd);
     }
 
+    @Override
+    public void transactionResult(boolean result) {
+        runOnUiThread(()-> {
+            Toast.makeText(MainActivity.this, result ? "ok" : "failed", Toast.LENGTH_SHORT).show();
+        });
+    }
+
+
+
+    @Override
+    public String enterPin(int ptc, String amount) {
+        pin = new String();
+        Intent it = new Intent(MainActivity.this, PinpadActivity.class);
+        it.putExtra("ptc", ptc);
+        it.putExtra("amount", amount);
+        synchronized (MainActivity.this) {
+            activityResultLauncher.launch(it);
+            try {
+                MainActivity.this.wait();
+            } catch (Exception ex) {
+                //todo: log error
+            }
+        }
+        return pin;
+    }
 
     public static byte[] stringToHex(String s)
     {
@@ -104,13 +153,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    /**
-     * A native method that is implemented by the 'fclient' native library,
-     * which is packaged with this application.
-     */
-    public native String stringFromJNI();
-    public static native int initRng();
-    public static native byte[] randomBytes(int no);
-    public static native byte[] encrypt(byte[] key,byte[] data);
-    public static native byte[] decrypt(byte[] key, byte[] data);
 }
