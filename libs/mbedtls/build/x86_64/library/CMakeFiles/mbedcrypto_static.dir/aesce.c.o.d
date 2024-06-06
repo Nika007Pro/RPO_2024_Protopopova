@@ -1,5 +1,5 @@
 library/CMakeFiles/mbedcrypto_static.dir/aesce.c.o: \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/library/aesce.c \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/library/aesce.c \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/versioning.h \
@@ -28,26 +28,26 @@ library/CMakeFiles/mbedcrypto_static.dir/aesce.c.o: \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/posix_types.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/pthread_types.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/string.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/library/common.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/build_info.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_psa.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_legacy.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_adjust_config_synonyms.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_superset_legacy.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_from_legacy.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_adjust_config_key_pair_types.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_adjust_auto_enabled.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_x509.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_ssl.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/check_config.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/library/common.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/build_info.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_psa.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_legacy.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_adjust_config_synonyms.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_superset_legacy.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_from_legacy.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_adjust_config_key_pair_types.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_adjust_auto_enabled.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_x509.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_ssl.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/check_config.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include/limits.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/limits.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include/float.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/limits.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/posix_limits.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/library/alignment.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/library/alignment.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/stdlib.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/alloca.h \
@@ -62,11 +62,11 @@ library/CMakeFiles/mbedcrypto_static.dir/aesce.c.o: \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/library/aesce.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/aes.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/private_access.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/platform_util.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/platform_time.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/library/aesce.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/aes.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/private_access.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/platform_util.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/platform_time.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/time.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/time.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/time.h \

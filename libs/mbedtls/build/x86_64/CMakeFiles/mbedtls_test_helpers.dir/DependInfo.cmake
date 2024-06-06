@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/tests/src/test_helpers/ssl_helpers.c" "CMakeFiles/mbedtls_test_helpers.dir/tests/src/test_helpers/ssl_helpers.c.o" "gcc" "CMakeFiles/mbedtls_test_helpers.dir/tests/src/test_helpers/ssl_helpers.c.o.d"
+  "/home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/test_helpers/ssl_helpers.c" "CMakeFiles/mbedtls_test_helpers.dir/tests/src/test_helpers/ssl_helpers.c.o" "gcc" "CMakeFiles/mbedtls_test_helpers.dir/tests/src/test_helpers/ssl_helpers.c.o.d"
   )
 
 # Targets to which this target links.

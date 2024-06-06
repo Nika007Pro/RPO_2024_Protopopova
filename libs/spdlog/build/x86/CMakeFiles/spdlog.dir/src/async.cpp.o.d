@@ -1,10 +1,10 @@
 CMakeFiles/spdlog.dir/src/async.cpp.o: \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/src/async.cpp \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/async.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/async_logger.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/logger.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/common.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/null_mutex.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/src/async.cpp \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/async.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/async_logger.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/logger.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/common.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/null_mutex.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/atomic \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/features.h \
@@ -106,7 +106,7 @@ CMakeFiles/spdlog.dir/src/async.cpp.o: \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__tuple \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/initializer_list \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__debug \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/tweakme.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/tweakme.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cstdio \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/exception \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cstdlib \
@@ -143,38 +143,37 @@ CMakeFiles/spdlog.dir/src/async.cpp.o: \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/wctype.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/wctype.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/wctype.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/fmt/fmt.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/fmt.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cmath \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/system_error \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__errc \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cerrno \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/backtracer.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/circular_q.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/backtracer.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/circular_q.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cassert \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/vector \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__bit_reference \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__split_buffer \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/log_msg.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/mutex \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__mutex_base \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/registry.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/periodic_worker.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/registry.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/periodic_worker.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/condition_variable \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/thread \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/unordered_map \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__hash_table \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__node_handle \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/optional \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/thread_pool.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/mpmc_blocking_q.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/os.h \
-  /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/future \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/sinks/sink.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/formatter.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/thread_pool.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/mpmc_blocking_q.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/os.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/sink.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/formatter.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h

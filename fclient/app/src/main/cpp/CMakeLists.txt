@@ -38,15 +38,15 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
 add_library(spdlog STATIC IMPORTED)
 set_target_properties(spdlog PROPERTIES IMPORTED_LOCATION
-        /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a)
+        /home/vladimir/AndroidStudioProjects/fclient/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a)
 
 add_library(mbedcrypto SHARED IMPORTED)
 set_target_properties(mbedcrypto PROPERTIES IMPORTED_LOCATION
-        /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/build/${ANDROID_ABI}/library/libmbedcrypto.so)
+        /home/vladimir/AndroidStudioProjects/fclient/libs/mbedtls/build/${ANDROID_ABI}/library/libmbedcrypto.so)
 
 target_include_directories(fclient PUBLIC
-        /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include
-        /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/include)
+        /home/vladimir/AndroidStudioProjects/fclient/libs/spdlog/spdlog/include
+        /home/vladimir/AndroidStudioProjects/fclient/libs/mbedtls/mbedtls/include)
 
 
 target_link_libraries( # Specifies the target library.

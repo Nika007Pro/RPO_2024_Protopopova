@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/3rdparty/p256-m/p256-m/p256-m.c" "3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m/p256-m.c.o" "gcc" "3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m/p256-m.c.o.d"
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/3rdparty/p256-m/p256-m_driver_entrypoints.c" "3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m_driver_entrypoints.c.o" "gcc" "3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m_driver_entrypoints.c.o.d"
+  "/home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/3rdparty/p256-m/p256-m/p256-m.c" "3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m/p256-m.c.o" "gcc" "3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m/p256-m.c.o.d"
+  "/home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/3rdparty/p256-m/p256-m_driver_entrypoints.c" "3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m_driver_entrypoints.c.o" "gcc" "3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m_driver_entrypoints.c.o.d"
   )
 
 # Targets to which this target links.

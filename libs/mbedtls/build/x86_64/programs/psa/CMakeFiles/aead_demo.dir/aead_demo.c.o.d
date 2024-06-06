@@ -1,18 +1,18 @@
 programs/psa/CMakeFiles/aead_demo.dir/aead_demo.c.o: \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/programs/psa/aead_demo.c \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/build_info.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_psa.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_legacy.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_adjust_config_synonyms.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_superset_legacy.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_from_legacy.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_adjust_config_key_pair_types.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_adjust_auto_enabled.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_x509.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_ssl.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/check_config.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/psa/aead_demo.c \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/build_info.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_psa.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_legacy.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_adjust_config_synonyms.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_superset_legacy.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_from_legacy.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_adjust_config_key_pair_types.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_adjust_auto_enabled.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_x509.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_ssl.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/check_config.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include/limits.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/limits.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h \
@@ -27,26 +27,26 @@ programs/psa/CMakeFiles/aead_demo.dir/aead_demo.c.o: \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdint.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wchar_limits.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include/stddef.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_platform.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/private_access.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/build_info.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_types.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_values.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_sizes.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_struct.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_driver_contexts_primitives.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_driver_common.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_builtin_primitives.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/md5.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/ripemd160.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/sha1.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/sha256.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/sha512.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/sha3.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/cipher.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/platform_util.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/platform_time.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_platform.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/private_access.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/build_info.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_types.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_values.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_sizes.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_struct.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_driver_contexts_primitives.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_driver_common.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_builtin_primitives.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/md5.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/ripemd160.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/sha1.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/sha256.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/sha512.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/sha3.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/cipher.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/platform_util.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/platform_time.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/time.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/time.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/types.h \
@@ -83,28 +83,28 @@ programs/psa/CMakeFiles/aead_demo.dir/aead_demo.c.o: \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include/inttypes.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/inttypes.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/inttypes.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_driver_contexts_composites.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_builtin_composites.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/cmac.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/gcm.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/ccm.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/chachapoly.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/poly1305.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/chacha20.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/ecdsa.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/ecp.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/bignum.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_driver_contexts_composites.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_builtin_composites.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/cmac.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/gcm.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/ccm.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/chachapoly.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/poly1305.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/chacha20.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/ecdsa.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/ecp.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/bignum.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include/stdarg.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/seek_constants.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/struct_file.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdio.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/md.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_driver_contexts_key_derivation.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_builtin_key_derivation.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_extra.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_compat.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/md.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/ecjpake.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_driver_contexts_key_derivation.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_builtin_key_derivation.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_extra.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_compat.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/stdlib.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/alloca.h \

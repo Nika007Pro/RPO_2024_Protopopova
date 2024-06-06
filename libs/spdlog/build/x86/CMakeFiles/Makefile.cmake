@@ -18,7 +18,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeDetermineCompiler.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeDetermineCompilerABI.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake"
-  "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeFindBinUtils.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
@@ -27,7 +26,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeParseImplicitIncludeInfo.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeParseLibraryArchitecture.cmake"
-  "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeSystem.cmake.in"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake"
@@ -89,7 +87,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/Platform/Android-Clang-CXX.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/Platform/Android-Clang.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/Platform/Android-Determine-CXX.cmake"
-  "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/Platform/Android-Determine.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/Platform/Android-Initialize.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/Platform/Android.cmake"
   "/home/vladimir/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/Platform/Android/Determine-Compiler.cmake"
@@ -101,7 +98,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vladimir/Android/Sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake"
   "/home/vladimir/Android/Sdk/ndk/25.1.8937393/build/cmake/flags.cmake"
   "/home/vladimir/Android/Sdk/ndk/25.1.8937393/build/cmake/hooks/pre/Android-Clang.cmake"
-  "/home/vladimir/Android/Sdk/ndk/25.1.8937393/build/cmake/hooks/pre/Android-Determine.cmake"
   "/home/vladimir/Android/Sdk/ndk/25.1.8937393/build/cmake/hooks/pre/Android-Initialize.cmake"
   "/home/vladimir/Android/Sdk/ndk/25.1.8937393/build/cmake/hooks/pre/Android.cmake"
   "/home/vladimir/Android/Sdk/ndk/25.1.8937393/build/cmake/hooks/pre/Determine-Compiler.cmake"
@@ -110,13 +106,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake"
   "CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx"
   "CMakeFiles/FindThreads/CheckForPthreads.cxx"
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/CMakeLists.txt"
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/cmake/ide.cmake"
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/cmake/spdlog.pc.in"
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/cmake/spdlogCPack.cmake"
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/cmake/spdlogConfig.cmake.in"
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/cmake/utils.cmake"
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/example/CMakeLists.txt"
+  "/home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/CMakeLists.txt"
+  "/home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/cmake/ide.cmake"
+  "/home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/cmake/spdlog.pc.in"
+  "/home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/cmake/spdlogCPack.cmake"
+  "/home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/cmake/spdlogConfig.cmake.in"
+  "/home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/cmake/utils.cmake"
+  "/home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/example/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -127,7 +123,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake"
   "CMakeFiles/3.22.1-g37088a8/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1-g37088a8/CMakeCXXCompiler.cmake"
   "CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx"

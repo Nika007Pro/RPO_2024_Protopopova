@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/programs/test/dlopen.c" "programs/test/CMakeFiles/dlopen.dir/dlopen.c.o" "gcc" "programs/test/CMakeFiles/dlopen.dir/dlopen.c.o.d"
+  "/home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/test/dlopen.c" "programs/test/CMakeFiles/dlopen.dir/dlopen.c.o" "gcc" "programs/test/CMakeFiles/dlopen.dir/dlopen.c.o.d"
   )
 
 # Targets to which this target links.
