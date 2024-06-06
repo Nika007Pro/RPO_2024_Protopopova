@@ -1,19 +1,19 @@
 CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o: \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/tests/include/test/fake_external_rng_for_test.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/build_info.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_psa.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_legacy.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_adjust_config_synonyms.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_superset_legacy.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_from_legacy.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_adjust_config_key_pair_types.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/psa/crypto_adjust_auto_enabled.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_x509.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/config_adjust_ssl.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/include/mbedtls/check_config.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/include/test/fake_external_rng_for_test.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/build_info.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_psa.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_legacy.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_adjust_config_synonyms.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_superset_legacy.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_from_legacy.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_adjust_config_key_pair_types.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/psa/crypto_adjust_auto_enabled.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_x509.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/config_adjust_ssl.h \
+  /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include/mbedtls/check_config.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include/limits.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/limits.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h \

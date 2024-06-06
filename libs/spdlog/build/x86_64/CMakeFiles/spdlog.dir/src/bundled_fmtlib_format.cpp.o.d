@@ -1,6 +1,6 @@
 CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o: \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/src/bundled_fmtlib_format.cpp \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/src/bundled_fmtlib_format.cpp \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/features.h \
@@ -154,5 +154,5 @@ CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o: \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/ios \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/streambuf \
   /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__bsd_locale_fallbacks.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h \
-  /home/vladimir/AndroidStudioProjects/fclient2/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h \
+  /home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h

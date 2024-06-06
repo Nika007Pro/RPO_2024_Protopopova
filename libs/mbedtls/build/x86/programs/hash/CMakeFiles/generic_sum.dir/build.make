@@ -53,10 +53,10 @@ RM = /home/vladimir/Android/Sdk/cmake/3.22.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86
+CMAKE_BINARY_DIR = /home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86
 
 # Include any dependencies generated for this target.
 include programs/hash/CMakeFiles/generic_sum.dir/depend.make
@@ -70,18 +70,18 @@ include programs/hash/CMakeFiles/generic_sum.dir/progress.make
 include programs/hash/CMakeFiles/generic_sum.dir/flags.make
 
 programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.o: programs/hash/CMakeFiles/generic_sum.dir/flags.make
-programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.o: /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/programs/hash/generic_sum.c
+programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.o: /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/hash/generic_sum.c
 programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.o: programs/hash/CMakeFiles/generic_sum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.o"
-	cd /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/programs/hash && /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.o -MF CMakeFiles/generic_sum.dir/generic_sum.c.o.d -o CMakeFiles/generic_sum.dir/generic_sum.c.o -c /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/programs/hash/generic_sum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.o"
+	cd /home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/programs/hash && /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.o -MF CMakeFiles/generic_sum.dir/generic_sum.c.o.d -o CMakeFiles/generic_sum.dir/generic_sum.c.o -c /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/hash/generic_sum.c
 
 programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/generic_sum.dir/generic_sum.c.i"
-	cd /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/programs/hash && /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/programs/hash/generic_sum.c > CMakeFiles/generic_sum.dir/generic_sum.c.i
+	cd /home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/programs/hash && /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/hash/generic_sum.c > CMakeFiles/generic_sum.dir/generic_sum.c.i
 
 programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/generic_sum.dir/generic_sum.c.s"
-	cd /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/programs/hash && /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/programs/hash/generic_sum.c -o CMakeFiles/generic_sum.dir/generic_sum.c.s
+	cd /home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/programs/hash && /home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android19 --sysroot=/home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/hash/generic_sum.c -o CMakeFiles/generic_sum.dir/generic_sum.c.s
 
 # Object files for target generic_sum
 generic_sum_OBJECTS = \
@@ -89,26 +89,26 @@ generic_sum_OBJECTS = \
 
 # External object files for target generic_sum
 generic_sum_EXTERNAL_OBJECTS = \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/bignum_helpers.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_asymmetric_encryption.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_agreement.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_stubs.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/random.c.o" \
-"/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o"
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/bignum_helpers.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/certs.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/hash.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/platform_builtin_keys.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_aead.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_asymmetric_encryption.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_cipher.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_agreement.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_key_management.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_mac.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_pake.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/test_driver_signature.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_stubs.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_exercise_key.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/random.c.o" \
+"/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/threading_helpers.c.o"
 
 programs/hash/generic_sum: programs/hash/CMakeFiles/generic_sum.dir/generic_sum.c.o
 programs/hash/generic_sum: CMakeFiles/mbedtls_test.dir/tests/src/asn1_helpers.c.o
@@ -136,18 +136,18 @@ programs/hash/generic_sum: library/libmbedcrypto.so
 programs/hash/generic_sum: 3rdparty/everest/libeverest.a
 programs/hash/generic_sum: 3rdparty/p256-m/libp256m.a
 programs/hash/generic_sum: programs/hash/CMakeFiles/generic_sum.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable generic_sum"
-	cd /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/programs/hash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/generic_sum.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable generic_sum"
+	cd /home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/programs/hash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/generic_sum.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 programs/hash/CMakeFiles/generic_sum.dir/build: programs/hash/generic_sum
 .PHONY : programs/hash/CMakeFiles/generic_sum.dir/build
 
 programs/hash/CMakeFiles/generic_sum.dir/clean:
-	cd /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/programs/hash && $(CMAKE_COMMAND) -P CMakeFiles/generic_sum.dir/cmake_clean.cmake
+	cd /home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/programs/hash && $(CMAKE_COMMAND) -P CMakeFiles/generic_sum.dir/cmake_clean.cmake
 .PHONY : programs/hash/CMakeFiles/generic_sum.dir/clean
 
 programs/hash/CMakeFiles/generic_sum.dir/depend:
-	cd /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/programs/hash /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86 /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/programs/hash /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/programs/hash/CMakeFiles/generic_sum.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/hash /home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86 /home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/programs/hash /home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/programs/hash/CMakeFiles/generic_sum.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : programs/hash/CMakeFiles/generic_sum.dir/depend
 

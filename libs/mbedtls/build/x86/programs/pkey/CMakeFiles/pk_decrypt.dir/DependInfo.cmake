@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/programs/pkey/pk_decrypt.c" "programs/pkey/CMakeFiles/pk_decrypt.dir/pk_decrypt.c.o" "gcc" "programs/pkey/CMakeFiles/pk_decrypt.dir/pk_decrypt.c.o.d"
+  "/home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/pkey/pk_decrypt.c" "programs/pkey/CMakeFiles/pk_decrypt.dir/pk_decrypt.c.o" "gcc" "programs/pkey/CMakeFiles/pk_decrypt.dir/pk_decrypt.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake"
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/3rdparty/everest/CMakeFiles/everest.dir/DependInfo.cmake"
-  "/home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/build/x86/3rdparty/p256-m/CMakeFiles/p256m.dir/DependInfo.cmake"
+  "/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake"
+  "/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/3rdparty/everest/CMakeFiles/everest.dir/DependInfo.cmake"
+  "/home/vladimir/AndroidStudioProjects/libs/mbedtls/build/x86/3rdparty/p256-m/CMakeFiles/p256m.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

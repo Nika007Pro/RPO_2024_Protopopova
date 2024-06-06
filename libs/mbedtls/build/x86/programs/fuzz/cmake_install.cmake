@@ -1,4 +1,4 @@
-# Install script for directory: /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/programs/fuzz
+# Install script for directory: /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/fuzz
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

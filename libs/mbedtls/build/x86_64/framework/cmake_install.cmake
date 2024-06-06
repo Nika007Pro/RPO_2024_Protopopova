@@ -1,4 +1,4 @@
-# Install script for directory: /home/vladimir/AndroidStudioProjects/fclient2/libs/mbedtls/mbedtls/mbedtls/framework
+# Install script for directory: /home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/framework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

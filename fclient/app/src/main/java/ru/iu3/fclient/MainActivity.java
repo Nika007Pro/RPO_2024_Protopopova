@@ -16,11 +16,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.crashlytics.buildtools.reloc.org.apache.commons.io.IOUtils;
-
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;
-//import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.IOUtils;
 
 import java.io.InputStream;
 import java.net.HttpURLConnection;
